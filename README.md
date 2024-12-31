@@ -5,7 +5,7 @@
 ## As tags são códigos que usamos para construir uma página web. Elas são palavras-chave envoltas de menor que(<) e maior que(>) por Exemplo
 ```html
 <p> <!--essa tag e para parágrafo-->
-<h1> <!--essa tag e para Texto-->
+<h1> <!--essa tag e para Titulo-->
 <img> <!--essa tag e para Imagem-->
 ```
 ## Essas tags contém o conteúdo visível da página.
@@ -26,3 +26,23 @@
 <img src="minha-imagem.jpg" alt="Descrição da imagem"> <!--Com Imagem-->
 <input type="text" name="nome" value="Seu nome"> <!--Com Value-->
 ```
+# Estruturas Básicas
+## Uma página HTML básica possui a seguinte estrutura
+```html
+<!DOCTYPE html> 
+<html>
+<head>
+<titile>Meu Primeiro Site</title>
+</head>
+<body>
+<h1>Bem-vindo ao meu site!</h1>
+<p>Este é um parágrafo de exemplo.</p>
+</body>
+<html>
+```
+## Explicação
+## - <!DOCTYPEhtml>: Informa ao navegado que o um Documento HTML5
+## - < html> < /html>: Define a raiz do documento html 
+## - < head> < /head>: Define a cabeça do código onde o usuário não ver, podemos usar um link pra usar o css com html
+## - < title> < /title>: Usamos essa tag dentro da tag head, ela define o Titulo que aparace na aba do navegador
+## - < body< < /body>: Essa tag e o Corpo do Documento que é a parte visual do site onde podemos usar muitas tags
