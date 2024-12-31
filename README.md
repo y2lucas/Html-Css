@@ -181,6 +181,9 @@ h1{
  rgb(255, 0, 0);/* A cor do h1 vai ser vemelho*/
 }
 ```
+# Bordas: são elementos visuais essenciais em CSS, permitindo que você adicione contornos e realce elementos em suas páginas web. Elas podem ser personalizadas em diversos aspectos, Os mais Utilizados são as Solid, Dotted, Dashed.
+## Solid: é uma Bordar com uma linha normal
+
 
 
 
