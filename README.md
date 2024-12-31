@@ -231,3 +231,14 @@ padding:10px;
 ```css
 margin:12px;
 ```
+# Altura e Largura: no html ou no css usamos os height e width, Podemos usar % para definir ou pixels/px
+## Altura/height
+```css
+height:"12px";/*Usando pixels*/
+height:"12%";/*Usando porcentagem*/
+```
+## Largura/width
+```css
+width:"12px";/*Usando pixels*/
+width:"12%";/*Usando Porcentagem*/
+```
