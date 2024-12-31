@@ -91,5 +91,52 @@
 <li>Segundo</li>
 <ul>
 ```
+# <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_plain_wordmark_logo_icon_146574.png" height="50"  width="50"> CSS: A Linguagem que Define a Aparência das Páginas Web
+## abreviação de Cascading Style Sheets (ou Folhas de Estilo em Cascata, em português), é uma linguagem de estilo usada para definir a apresentação visual de documentos HTML, como cores e tamanhos, o css e meio que uma maquiaguem para deixar mais bonita .
+# Métodos de Usar o CSS no Html
+## inline: E quando Usamos o css dentro da linha do código html
+```html
+<h1 style="color:red;">Hoje Foi legal</h1> <!--Aqui esse Titulo vai Sair Vermelho-->
+```
+## interno: E Quando colocamos na página do html o css, sendo que na cabeça onde o usuário não pode ver
+```html
+<!DOCTYPE html> 
+<html>
+<head>
+<titile>Meu Primeiro Site</title>
+<style>
+h1{
+color:red;
+}
+</style>
+</head>
+<body>
+<h1>Bem-vindo ao meu site!</h1> <!--Aqui esse Titulo vai Sair Vermelho-->
+<p>Este é um parágrafo de exemplo.</p>
+</body>
+<html>
+```
+## Externo: E Quando Criamos uma página só pro css e linkamos o css com o html
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>css</title>
+<link rel="stylesheet" href="style.css"> <!--Aqui estamos Juntando o css com o html-->
 
+</head>
+
+<body>
+    <h1>Titulo da página</h1>
+    <h2>Titulo da página</h2>
+</body>
+</html>
+```
+```css
+h1 {
+    color: blue;
+    font-size: 15px;
+}
+```
 
