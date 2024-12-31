@@ -151,5 +151,17 @@ color:blue;
  font-size: 15px;
 }
 ```
+# Class: Diferente do id, na class podemos usar muitas vezes no codigo, Para indentificar usamos um ponto .
+```html
+<h1 class="hj">testando class</h1>
+<p class="hj">Testando</p>
+```
+```css
+.hj{
+color:red;
+font-size:12px;
+}
+```
+
 
 
