@@ -162,6 +162,26 @@ color:red;
 font-size:12px;
 }
 ```
+# Cores: No CSS Existe 3 Tipos de Maneiras De Colocar as cores No Documento
+## Nomes Das Cores: São Palavras chaves que representão palavras de cores comuns, São fáceis de lembrar e usar, mas oferecem um conjunto limitado de cores
+```css
+h1{
+color:red; /* A cor do h1 vai ser vemelho*/
+}
+```
+## Hexadecimal: Utiliza notação de seis Digitos Hexadecimais(#) epresentando a intensidade de vermelho, verde e azul (RGB)
+```css
+h1{
+color: #FF0000;/* A cor do h1 vai ser vemelho*/
+}
+```
+## RGB: Define a cor com base nas intensidades de vermelho, verde e azul, em valores de 0 a 255
+```css
+h1{
+ rgb(255, 0, 0);/* A cor do h1 vai ser vemelho*/
+}
+```
+
 
 
 
