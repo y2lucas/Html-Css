@@ -198,7 +198,28 @@ h1{
 ```css
  border-radius: 200px;
 ````
-
-
-
-
+## Posições: ão fundamentais para definir as posições das bordas em um elemento CSS. Elas permitem um controle preciso sobre a aparência e o layout de seus elementos na página, existem 4 tipos são bottom,left,right,top
+## Top: Acima do elemento a bordar vai ficar
+```css
+.meu-elemento {
+  border-top: 2px solid black; /* Borda superior de 2px, sólida e preta */
+}
+```
+## bottom: Abaixo do elemento a bordar vai ficar
+```css
+.meu-elemento {
+  border-bottom: 2px solid black; /* Borda inferior de 2px, sólida e preta */
+}
+```
+## left: A esquerda do elemento a bordar vai ficar
+```css
+.meu-elemento {
+  border-left: 2px solid black; /* Borda esquerda de 2px, sólida e preta */
+}
+```
+## right: A Direita do elemento a bordar vai ficar
+```css
+.meu-elemento {
+  border-right: 2px solid black; /* Borda esquerda de 2px, sólida e preta */
+}
+```
