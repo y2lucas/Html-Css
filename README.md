@@ -223,3 +223,11 @@ h1{
   border-right: 2px solid black; /* Borda esquerda de 2px, sólida e preta */
 }
 ```
+# Padding: O espaço entre os elementos, o espaçamento interno
+```css
+padding:10px;
+```
+# Margin: O espaço extreno sobre o elemento, ou seja a área vazia sobre o elemento
+```css
+margin:12px;
+```
