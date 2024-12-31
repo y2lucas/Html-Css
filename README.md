@@ -46,3 +46,22 @@
 ## - < head> < /head>: Define a cabeça do código onde o usuário não ver, podemos usar um link pra usar o css com html
 ## - < title> < /title>: Usamos essa tag dentro da tag head, ela define o Titulo que aparace na aba do navegador
 ## - < body< < /body>: Essa tag e o Corpo do Documento que é a parte visual do site onde podemos usar muitas tags
+# Tags Básicas
+# - Titulos: Vai do 1 até o 6, enquanto for menor número maior o titulo
+```html
+<h1>Maior</h1>
+<h2>Maior</h2>
+<h3>Maior</h3>
+<h4>Maior</h4>
+<h5>Maior</h5>
+<h6>Maior</h6>
+```
+# - Parágrafos: Usada Para criar um Parágrafo no Documento
+```html
+<p>isso e um parágrafo</p>
+```
+# - Ânconra: Usada para criar hiperlinks, ou seja, elementos clicáveis que direcionam o usuário para outra página, um arquivo, um endereço de email, ou até mesmo para uma seção específica da mesma página.
+```html
+<a href="url_do_link">Texto do link</a>
+```
+
