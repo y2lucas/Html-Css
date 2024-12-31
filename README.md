@@ -182,8 +182,18 @@ h1{
 }
 ```
 # Bordas: são elementos visuais essenciais em CSS, permitindo que você adicione contornos e realce elementos em suas páginas web. Elas podem ser personalizadas em diversos aspectos, Os mais Utilizados são as Solid, Dotted, Dashed.
-## Solid: é uma Bordar com uma linha normal
-
+## Solid: é uma borda com uma linha normal
+```css
+  border:5px solid black; /*aqui essa borda vai ter 5 pixels, e a cor dela vai ser preta */
+```
+## dotted: Uma borda com linha pontilhada, com vários pontinhos
+```css
+  border:5px dotted black; /*aqui essa borda vai ter 5 pixels, e a cor dela vai ser preta */
+```
+## dashed: E Uma borda com linhas tracejadas
+```css
+  border:5px dashed black; /*aqui essa borda vai ter 5 pixels, e a cor dela vai ser preta */
+```
 
 
 
