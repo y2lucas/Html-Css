@@ -64,4 +64,32 @@
 ```html
 <a href="url_do_link">Texto do link</a>
 ```
+# - Imagem: Usada Para Colocar uma Imagem no documento html.
+```html
+<img src="" alt="">
+```
+# - Botão: Usada Para Criar um botão No Documento
+```html
+<button>Clique Aqui</button>
+```
+# - Quebrar Linha: Usada Para Pular uma linha
+```html
+<br>
+```
+# - Listas: Usadas Para Criar Listas No Documentos, Existem 2 Tipos são eles Ordernados e não Ordenadas
+## Ordenada: com apartir do 1 em diante
+```html
+<ol>
+<li>primeiro</li>
+<li>Segundoo</li>
+</ol>
+```
+## Não Ordenada: Não tem númeração
+```html
+<ul>
+<li>Primeiro</li>
+<li>Segundo</li>
+<ul>
+```
+
 
