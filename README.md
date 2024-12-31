@@ -194,6 +194,10 @@ h1{
 ```css
   border:5px dashed black; /*aqui essa borda vai ter 5 pixels, e a cor dela vai ser preta */
 ```
+## Arredondar Bordas : Para deixar uma borda meio que arredondado usamos o border-radius, permite que você crie cantos arredondados em elementos HTML, como divs, botões, imagens
+```css
+ border-radius: 200px;
+````
 
 
 
