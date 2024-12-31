@@ -139,4 +139,17 @@ h1 {
     font-size: 15px;
 }
 ```
+# Organização Do CSS
+## Podemos usar Várias maneiras, As Mais Utilizadas são por Id, class, nome
+# ID: Só Pode ser utilizado Uma vez na página do Documento, Para indentidicar o id usamos#
+```html
+<h1 id="teste">Testando id</h1>
+```
+```css
+#teste{
+color:blue;
+ font-size: 15px;
+}
+```
+
 
