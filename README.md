@@ -242,3 +242,12 @@ height:"12%";/*Usando porcentagem*/
 width:"12px";/*Usando pixels*/
 width:"12%";/*Usando Porcentagem*/
 ```
+# box-sizing: Existem dois tipos que são o content e border
+## content-box: Digamos que você tem uma borda com as configurações de tamanho, e dentro dessa borda tem uma imagem, se você aumentar a imagem a borda não vai aumentar, só vai aumentar o contéudo que no caso vai ser a imagem
+```css
+box-sizing:content-box;
+```
+## border-box: Digamos que você tem uma borda, e dentro dela tem uma imagem, se você aumentar a imagem a bordar vai aumentar.
+```css
+box-sizing:border-box;
+```
