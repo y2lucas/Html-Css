@@ -251,3 +251,14 @@ box-sizing:content-box;
 ```css
 box-sizing:border-box;
 ```
+# Links: são elementos que conectam uma página da web a outra, seja dentro do mesmo site ou em um site diferente
+## Tipos de Links
+### - Links internos:Conectam a página dentro do mesmo site
+### - Links extrenos: Conectam a páginas em outros sites
+### - Links para arquivos: Conectam a arquivos como PDF, documentos do Word, etc
+### - Links para âncoras: Conectam a partes específicas da mesma página.
+## Atributos para a tag <a>
+### - href: Indica para onde o link vai
+### - target: Define onde o link será aberto, se colocarmos _blank, quando clicar vai abrir outra aba
+### - title: Fornece um texto alternativo para o link, exibido ao passar o mouse.
+### - rel: Especifica a relação entre a página atual e a página linkada.
