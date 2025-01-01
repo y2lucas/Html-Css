@@ -262,3 +262,40 @@ box-sizing:border-box;
 ### - target: Define onde o link será aberto, se colocarmos _blank, quando clicar vai abrir outra aba
 ### - title: Fornece um texto alternativo para o link, exibido ao passar o mouse.
 ### - rel: Especifica a relação entre a página atual e a página linkada.
+# Formatação de texto em Html
+## < b> < /b>:Deixa em Negrito
+```html
+<p>Testando <b>este</b></p>
+```
+## < strong> < /strong>:Deixa mais forte/negrito, Deixa com semântica de importância
+```html
+<p>teste <strong>forte</strong></p>
+```
+## < i> < /i>:Deixa o texto em italic
+```html
+<p>este e<i>Um texto em italic</i></p>
+```
+## < em> < /em>:Deixa em italic, mais com uma semântica de impotância
+```html
+<p>este e um<em>exemplo</em></p>
+```
+## < small> < /small>: Deixa o texto menor que o padrão
+```html
+<p>testando<small>menor</small></p>
+```
+## < del> < /del>:Deixa um risco no meio do texto
+```html
+<p>com<del>risco</del></p>
+```
+## < mark> </ mark>:Deixa o texto como se estivesse com um marca texto
+```html
+<p>com<mark>marca</mark</p>
+```
+## < sup> < /sup>: Deixa menor o texto e coloca sobe o texto
+```html
+<p>vai<sup>ser Menor</sup></p>
+```
+## < sub> < /sub>: Deixa Menor o texto e coloca abaixo do texto
+```html
+<p>abaixo<sub> do texto</sub></p>
+```
