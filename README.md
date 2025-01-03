@@ -344,9 +344,57 @@ h1{
 text-align:center;
 }
 ```
-## - Justify
+## - Justify: deixa o texto justificado
+```css
+h1{
+text-align:justify;
+}
+```
+## text-decoration: Deixa o texto sem decoração, quando colocamos a tag <a> num texto ela fica com o anderlaine_, podemos tirar isso
+```css
+a{
+text-decoration:none;
+}
+```
+## text-transform: Pode Transformar o texto tem dois tipos o uppercase e o lowercase
+## - uppercase: Deixa todo em Maiusculo/Caps Lock
+```css
+.kl{
+text-transform:uppercase;
+}
+```
+## - lowercase: Deixa todo em Minusculo
+```css
+.mn{
+text-transform:lowercase;
+}
+```
+## letter-space: Define o espaçamento entre cada letra do texto
+```css
+.hj{
+letter-space:18px;
+}
+```
+## word-space: Define o espaçamento entre cada palavra do texto
+```css
+.ls{
+word-space:4px;
+}
+````
+## line-height: Define o espaçamento entre as linhas
+```css
+p{
+line-height:12px;
+}
+```
+## text-shadow: Colocar um sombra no texto, tem 4 itens, e obrigatório colocar esse 4 itens, o Primeiro deles e a distância da sombra para a direita, o segundo e quão pra baixo vai a sombra, o terceiro e o espaço de espumaçado da sombra, o quarto e e a cor da sombra.
+```css
+p{
+text-shadow: 2px 1px 2px red;
+}
+```
 
-
+    
 
 
 
