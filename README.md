@@ -299,4 +299,54 @@ box-sizing:border-box;
 ```html
 <p>abaixo<sub> do texto</sub></p>
 ```
+# Formatação de texto no css
+## E Quando você pode mudar a cor, tamanho, font, pode posicionar do texto com css
+## Color: Pode mudar a cor do texto
+```css
+p{
+color:red;/* a cor vai sair vermelho*/
+}
+```
+## font-size: pode alterar o tamanho do texto
+```css
+.hs{
+font-size:30px;
+}
+```
+## font-weight: pode colocar em negrito
+```css
+.pj{
+font-weight:bold;
+}
+```
+## font-family: Pode alterar o modelo da fonte
+```css
+body{
+  font-family: 'Lucida Sans';
+}
+```
+## text-align: Pode posicionar o texto tem 4 tipos o right,left,center,justify
+## - right: posiciona o texto para a Direita
+```css
+p{
+text-align:right;
+}
+```
+## - left: posiciona o texto para esquerda
+```css
+h1{
+text-align:left;
+}
+```
+## - center: posiciona no centro
+```css
+h1{
+text-align:center;
+}
+```
+## - Justify
+
+
+
+
 
