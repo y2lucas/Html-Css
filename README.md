@@ -393,7 +393,42 @@ p{
 text-shadow: 2px 1px 2px red;
 }
 ```
-
+## Lista: Tem Dois Tipos de Listas ul,ol
+## ul: Lista desordenada
+```html
+<ul>
+<li>pri..</li>
+<li>seg..</li>
+</ul>
+```
+## Caso queira Mudar o Simbolo, teve usar o list-style-type, tem 4 Tipos o disc, square, cicle, none
+## Disc: O padrão
+```html
+<ul style="list-style-type:disc;">
+<li>Prim...</li>
+<lisegu...</li>
+</ul>
+```
+## Square: Um Quadrado
+```html
+<ul style="list-style-type:square;">
+<li>Prim...</li>
+<liSegu..</li>
+</ul>
+```
+## Cicle: Um Circulo vazio por dentro
+```html
+<ul style="list-style-list:cicle;">
+<li>Pri..</li>
+<li>Seg..</li>
+</ul>
+```
+## None: Nada só tem o espaçamento
+```html
+<ul style="list-style-list:none;"
+<li>Prim..</li>
+<li>Seg..</li>
+</ul>
     
 
 
