@@ -76,21 +76,6 @@
 ```html
 <br>
 ```
-# - Listas: Usadas Para Criar Listas No Documentos, Existem 2 Tipos são eles Ordernados e não Ordenadas
-## Ordenada: com apartir do 1 em diante
-```html
-<ol>
-<li>primeiro</li>
-<li>Segundoo</li>
-</ol>
-```
-## Não Ordenada: Não tem númeração
-```html
-<ul>
-<li>Primeiro</li>
-<li>Segundo</li>
-<ul>
-```
 # <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_plain_wordmark_logo_icon_146574.png" height="50"  width="50"> CSS: A Linguagem que Define a Aparência das Páginas Web
 ## abreviação de Cascading Style Sheets (ou Folhas de Estilo em Cascata, em português), é uma linguagem de estilo usada para definir a apresentação visual de documentos HTML, como cores e tamanhos, o css e meio que uma maquiaguem para deixar mais bonita .
 # Métodos de Usar o CSS no Html
