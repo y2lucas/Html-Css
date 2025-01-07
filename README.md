@@ -451,7 +451,29 @@ text-shadow: 2px 1px 2px red;
 <li>Seg</li>
 </ol>
 ```
-
-
+## Tabelas: Usamos a tag table e dentro colocamos um tr e dentro um td e um th
+### - < tr> </ tr>: Representa uma linha
+### - < td> < /td>: Representa uma coluna
+### - < th> < /th>: Representa o cabeçalho
+```html
+<table>
+<tr>
+<th>Comidas</th>
+<th>Bebidas</th>
+</tr>
+<tr>
+<td>Arroz</td>
+<td>Café</td>
+</tr>
+<tr>
+<td>Biscoito</td>
+<td>Chá</td>
+</tr>
+<tr>
+<td>Macarão</td>
+<td>Suco</td>
+</tr>
+</table>
+```
 
 
