@@ -183,7 +183,7 @@ h1{
 ```css
  border-radius: 200px;
 ````
-## Posições: ão fundamentais para definir as posições das bordas em um elemento CSS. Elas permitem um controle preciso sobre a aparência e o layout de seus elementos na página, existem 4 tipos são bottom,left,right,top
+## Posições: São fundamentais para definir as posições das bordas em um elemento CSS. Elas permitem um controle preciso sobre a aparência e o layout de seus elementos na página, existem 4 tipos são bottom,left,right,top
 ## Top: Acima do elemento a bordar vai ficar
 ```css
 .meu-elemento {
@@ -414,7 +414,44 @@ text-shadow: 2px 1px 2px red;
 <li>Prim..</li>
 <li>Seg..</li>
 </ul>
-    
+```
+## ol: Lista Ordenada
+```html
+<ol>
+<li>Prim..</li>
+<li>Seg..</li>
+</ol>
+```
+## Caso queria mudar, Colocamos o type, podemos mudar para o Alfabeto,Número,Algarimos Romano, Ou escolher em qual número começar
+## Alfabeto
+```html
+<ol type="A">
+<li>Prim...</li>
+<li>Segu..</li>
+</ol>
+```
+## Número/já está em número
+```html
+<ol type="1">
+<li>Prim..</li>
+<li>Seg..</li>
+</ol>
+```
+## Algarismo Romano
+```html
+<ol type="I">
+<li>Prim..</li>
+<li>Seg..</li>
+</ol>
+```
+## Caso queria escolher o número que vai começar, Usamos o start
+```html
+<ol start="12">
+<li>Prim..</li>
+<li>Seg</li>
+</ol>
+```
+
 
 
 
