@@ -451,10 +451,10 @@ text-shadow: 2px 1px 2px red;
 <li>Seg</li>
 </ol>
 ```
-## Tabelas: Usamos a tag table e dentro colocamos um tr e dentro um td e um th
-### - < tr> </ tr>: Representa uma linha
-### - < td> < /td>: Representa uma coluna
-### - < th> < /th>: Representa o cabeçalho
+# Tabelas: Usamos a tag table e dentro colocamos um tr e dentro um td e um th
+## - < tr> </ tr>: Representa uma linha
+## - < td> < /td>: Representa uma coluna
+## - < th> < /th>: Representa o cabeçalho
 ```html
 <table>
 <tr>
@@ -481,4 +481,24 @@ a:hover{
 color:red;/*a letra vai ficar vermelha*/
 }
 ```
-
+# Formúlarios: Usamos para o usuário preencher com informações, pode ser um texto ou email...
+## < form> < /form>: tudo tem que estar dentro dessa tag
+## < input>: aqui que vai ter os tipos.
+## text: Da um campo de texto para o usuário digitar o que ele quiser.
+```html
+<form>
+<input type="text">
+</form>
+```
+## number: Da um campo de texto onde só pode digitar números
+```html
+<form>
+<input type="number">
+</form>
+```
+## password: Da um campo de texto onde pode digitar qualquer coisa, mas você não ver oque digitou fica com pontinhos, pos e uma senha
+```html
+<form>
+<input type="password">
+</form>
+```
