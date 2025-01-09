@@ -481,7 +481,7 @@ a:hover{
 color:red;/*a letra vai ficar vermelha*/
 }
 ```
-# Formúlarios: Usamos para o usuário preencher com informações, pode ser um texto ou email...
+# Formulários: Usamos para o usuário preencher com informações, pode ser um texto ou email...
 ## < form> < /form>: tudo tem que estar dentro dessa tag
 ## < input>: aqui que vai ter os tipos.
 ## text: Da um campo de texto para o usuário digitar o que ele quiser.
@@ -500,5 +500,38 @@ color:red;/*a letra vai ficar vermelha*/
 ```html
 <form>
 <input type="password">
+</form>
+```
+## checkbox: Um pequeno quadradro que podemos marcar apenas um ou mais, nele temos que colocar um name com o mesmo nome quem cada um se quiser poder marcar só um, se quiser marcar mais de 1 pode colocar name diferentes
+```html
+<form>
+<input type="checkbox" name="frutas">
+<input type="checkbox" name="frutas">
+</form>
+```
+## radio: e a mesma coisa que o checkbox, só muda a forma que nesse e um circulo
+```html
+<form>
+<input type="radio" name="Bebidas">
+<input type="radio" name="Bebidas">
+</form>
+```
+## submit: Um Botão Usado Para enviar o formulário
+```html
+<form>
+<input type="number"> <!--o que for Digitado aqui-->
+<input type="submit"> <!--Vai ser enviado ao clicar aqui-->
+</form>
+```
+## email: Um campo de texto que só aceita email, ele percebe se tem o @
+```html
+<form>
+<input type="email">
+</form>
+```
+## date: Um caléndario que você pode escolher o dia mês e ano
+```html
+<form>
+<input type="date">
 </form>
 ```
