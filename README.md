@@ -535,3 +535,78 @@ color:red;/*a letra vai ficar vermelha*/
 <input type="date">
 </form>
 ```
+## datetime-local: Um caléndario que pode colocar o tempo
+```html
+<form>
+<input type="datetime-local">
+</form>
+```
+## color: Pode colocar uma cor
+```html
+<form>
+<input type="color">
+</form>
+```
+## month: Um caléndario, agora só com o mês e ano
+```html
+<form>
+<input type="month">
+</form>
+```
+## range: um traço de tanto a tanto
+```html
+<form>
+<input type="range">
+</form>
+```
+## tel: um campo de texto para telefone
+```html
+<form>
+<input type="tel">
+</form>
+```
+## time: para a hora
+```html
+<form>
+<input type="time">
+</form>
+```
+## week: Pode colocar o caléndario, agora só vai a semana e ano
+```html
+<form>
+<input type="week">
+</form>
+```
+## select: apresenta um menu de opções onde, onde o usuário pode escolher as opções para essa tag funcionar dentro dela usamos a tag < option>
+```html
+<select>
+<option>Abacaxi</option>
+<option>Morango</option>
+<option>Maçã</option>
+</select>
+```
+## textarea: um campo de texto que pode aumentar o tamanho
+```html
+<form>
+<input type="textarea">
+</form>
+```
+## Button: faz a mesma coisa que o submit
+```html
+<form>
+<input type="text">
+<Button>Enviar<Button>
+</form>
+```
+## Label: um texto para Especificar qual informação colocar no input, se no form colocarmos um id, e no label um for, conectando os, caso se eu clicar no label/texto, vai ativar
+```html
+<form>
+<input type="text" id="aluno">
+<label for="aluno">Digite aqui</label>
+</form>
+```
+
+
+
+
+
