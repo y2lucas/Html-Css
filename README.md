@@ -475,5 +475,10 @@ text-shadow: 2px 1px 2px red;
 </tr>
 </table>
 ```
-
+# hover: Quando Passamos o Mouse no elemento Pode Acontecer Algo
+```css
+a:hover{ 
+color:red;/*a letra vai ficar vermelha*/
+}
+```
 
