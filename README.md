@@ -605,8 +605,40 @@ color:red;/*a letra vai ficar vermelha*/
 <label for="aluno">Digite aqui</label>
 </form>
 ```
-
-
+# legend, fieldset: Udados para Separar e organizar visualmente os inputs de um formulário por blocos.
+## fieldset: Ele cria um campo ao redor do form.
+```html
+<form>
+<fieldset>
+<label>Nome Do aluno<br>
+<input type="text" name="aluno">
+</label>
+</fieldset>
+</form>
+```
+## legend: usada dentro do fieldset, coloca um texto no campo
+```html
+<form>
+<fieldset>
+<legend>Dados do aluno</legend>
+<label>Nome Do aluno <br>
+<input type="text" name="n-aluno">
+</label><br>
+<label>Idade do Aluno <br>
+<input type="number" name="i-aluno">
+</label>
+</fieldset>
+<fieldset>
+<legend>Dados do Responsável</legend>
+<label>Nome do Responsável <br>
+<input type="text" name="r-respo">
+</label><br>
+<label> Idade do Responsável <br>
+<input type="number" name="i-resp">
+</label>
+</fieldset>
+</form>
+```
 
 
 
