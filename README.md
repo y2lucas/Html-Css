@@ -696,3 +696,18 @@ color:red;/*a letra vai ficar vermelha*/
 </label>
 </form>
 ```
+## Hidden: O input oculto é uma ferramenta útil para passar informações adicionais para o servidor de forma transparente para o usuário. Ao entender seu funcionamento e aplicações, você poderá criar formulários mais eficientes e seguros
+```html
+<form>
+<input type="hidden" value="BR">
+<label>Digite seu Nome: <br>
+<input type="text" placeholder = "Lucas Vasconcelos">
+</label>
+</form>
+```
+## file: Pode puxar um arquivo do seu computador, tipo um pdf ou foto
+```html
+<form>
+<input type="file">
+</form>
+```
