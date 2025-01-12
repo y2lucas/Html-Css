@@ -639,6 +639,60 @@ color:red;/*a letra vai ficar vermelha*/
 </fieldset>
 </form>
 ```
-
-
-
+# Validações nativas
+## required: Se o campo de texto estiver vazio ele vai reconhecer
+```html
+<form>
+<label>Digite seu nome: <br>
+<input type="text" required>
+</label>
+</form>
+```
+## minlenght: o minimo de caracteres que pode colocar no campo de texto
+```html
+<form>
+<labelDigite seu nome: <br>
+<input type="text" minlenght="2"> <!--o Minino e 2, se tiver menos que 2 não vai-->
+</label>
+</form>
+```
+## maxlenght: o Máximo de caracteres que pode colocar no campo e texto
+```html
+<form>
+<label Digite seu nome: <br>
+<input type="text" maxlenght="10">  <!--o Máximo e 10, se tiver mais que 10 não vai-->
+</label>
+</form>
+```
+## step: no caso de inputs de number, com esse atributos podemos colocar com quantos números podemos pular
+```html
+<form>
+<label>Digite seu idade: <br>
+<input type="number" step="2">
+</label>
+</form>
+```
+## min: Define o minino de número dentro do campo
+```html
+<form>
+<label>Digite qualquer número: <br>
+<input type="number" min="1">
+</label>
+</form>
+```
+## max: Define o Máximo de número dentro do campo
+```html
+<form>
+<label>Digite qualquer número: <br>
+<input type="number" max="4">
+</label>
+</form>
+```
+## placeholder: E uma legenda que fica no campo de texto, meio que uma previa como vai ficar quando o campo for prenchido
+```html
+<form>
+<label>Digite seu apelido:<br>
+<input type="text" placeholder="dmd">
+</label>
+</form>
+```
