@@ -711,3 +711,19 @@ color:red;/*a letra vai ficar vermelha*/
 <input type="file">
 </form>
 ```
+# Unidades de Medidas Relativas (viewport)
+## Ao invés de definir tamanhos em pixels ou outras unidades absolutas, as unidades relativas baseiam-se no tamanho da viewport do usuário (a área visível na tela, tem dois tipos que são o vh que são pra height, e vw para width,
+### vh: viewport(height): Representa 1% da altura do viewport
+```css
+.informa{
+background-color:red;
+height:2vh;
+}
+```
+### vw: viewport(width):Representa 1% da largura do wiewport
+```css
+.informa{
+background-color:red;
+width:5vw;
+}
+```
