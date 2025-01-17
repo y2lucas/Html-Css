@@ -727,3 +727,25 @@ background-color:red;
 width:5vw;
 }
 ```
+# header: é um cabeçalho que podemos colocar qualquer tag dentro dele
+```html
+<header>
+<h1>Olá Mundo</h1>
+</header>
+```
+# footer:um rotapê que pode colocar qualquer tag dentro dele
+```html
+<footer>
+<h1>olá mundo</h1>
+</footer>
+```
+# nav: usa para colocar link ou imagens, muito importante pós os monitores para deficientes, buscam essa tag
+```html
+<nav>
+<a href=""></a>
+<a href=""></a>
+<img src="" alt="">
+</nav>
+```
+
+
