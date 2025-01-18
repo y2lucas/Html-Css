@@ -747,5 +747,26 @@ width:5vw;
 <img src="" alt="">
 </nav>
 ```
+# section: pode separar os assuntos do seu códigos em várias partes
+```html
+<section><!-- assunto 1 -->
+<h1>Texto qualquer</h1>
+<p>blablablabla</p>
+</section>
+```
+# article: Usada para colocar o assunto Principal do site, o motor de busca vai procucar essa tag que deve estar com assunto principal
+```html
+<article>
+<h1>Assunto Principal do meu site</h1>
+</article>
+```
+# aside: Usada para o assunto secundário do site
+```html
+<article>
+<h1>Assunto principal</h1>
+<aside>
+<h2>Assunto secundário</h2>
+</aside>
+```
 
 
