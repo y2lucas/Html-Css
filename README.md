@@ -788,3 +788,7 @@ width:5vw;
 ```html
 <input type="text" required placeholder="Digite seu nome aqui" autocomplete="on"> <!--Ligado-->
 ```
+# Degradê: permite criar transições suaves entre duas cores em elementos html
+```css
+background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 255));
+```
