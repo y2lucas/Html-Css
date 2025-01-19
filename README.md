@@ -781,3 +781,10 @@ width:5vw;
 <input type="text" size="11">
 </label>
 ```
+# autocomplete: Digamos que você digitou algo no campo de texto antes, quando você for digitar novamente ai aparecer pra completar oque você digitou antes, tem como deixar ligado e desligado
+```html
+<input type="text" required placeholder="Digite seu nome aqui" autocomplete="off"> <!--Desligado-->
+```
+```html
+<input type="text" required placeholder="Digite seu nome aqui" autocomplete="on"> <!--Ligado-->
+```
