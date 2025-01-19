@@ -768,5 +768,10 @@ width:5vw;
 <h2>Assunto secundário</h2>
 </aside>
 ```
-
+# autofocus: Usada nos formulários, para quando aparecer já entrar pronto pra digitar 
+```html
+<form>
+<input type="text" required placeholder="seu Nome.." autofpcus >
+</form>
+```
 
