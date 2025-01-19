@@ -774,4 +774,10 @@ width:5vw;
 <input type="text" required placeholder="seu Nome.." autofpcus >
 </form>
 ```
-
+# size: o campo com o tamanho que caiba n° caracteres, digamos se eu colocar size="20", vai ficar do tamanho que caiba 20 caracteres
+```html
+<form>
+<label>Digite seu cpf
+<input type="text" size="11">
+</label>
+```
