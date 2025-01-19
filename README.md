@@ -771,7 +771,7 @@ width:5vw;
 # autofocus: Usada nos formulários, para quando aparecer já entrar pronto pra digitar 
 ```html
 <form>
-<input type="text" required placeholder="seu Nome.." autofpcus >
+<input type="text" required placeholder="seu Nome.." autofocus >
 </form>
 ```
 # size: o campo com o tamanho que caiba n° caracteres, digamos se eu colocar size="20", vai ficar do tamanho que caiba 20 caracteres
