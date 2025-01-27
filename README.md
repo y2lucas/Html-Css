@@ -877,5 +877,28 @@ p {
   word-wrap: break-word;
 }
 ```
+# lista de descrição
+## uma lista de descrição, anteriormente conhecida como lista de definição, é uma estrutura semântica utilizada para relacionar termos com suas respectivas definições
+## dl:Define a lista de descrição
+```html
+<dl></dl>
+```
+## dt:Define o termo da linha
+```html
+<dl>
+<dt>
+</dt>
+</dl>
+```
+## dd:Define a descrição de um termo
+```html
+<dl>
+<dt>
+<dd></dd>
+</dt>
+</dl>
+```
+
+
 
 
