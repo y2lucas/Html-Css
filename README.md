@@ -870,4 +870,12 @@ animation-iteration-count: infinite; /*aqui vai quantas vezes vai ser repetida, 
     border-radius: 12px;  /* vai ficar com 12px de bordas*/
 }
 ```
+# Word-Wrap: é uma ferramenta essencial para controlar o layout de texto em CSS. Ao entender seus diferentes valores e como combiná-los com outras propriedades, você pode criar designs mais flexíveis e responsivos.
+```css
+p {
+  width: 200px;
+  word-wrap: break-word;
+}
+```
+
 
