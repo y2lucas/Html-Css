@@ -792,3 +792,21 @@ width:5vw;
 ```css
 background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 255));
 ```
+# animação no css: economiza JavaScript usamos @keyframes para defenir temos duas maneiras os from{} to{}, e usando %
+## usando to from
+```css
+@keyframes teste {
+from{background-color:red;}
+to{background-color:blue;}
+}
+.exemplo{
+background-color:red;
+width:100px;
+height:100px;
+animation-name:teste; /*ai vai o nome da animação, vai conectar*/
+animation-duration: 5s; /*aqui vai a duração da animação, aqui no caso vai ficar 5 segundos*/
+animation-iteration-count: infinite; /*aqui vai quantas vezes vai ser repetida, aqui no caso vai ser infinitamente*/
+}
+```
+
+
