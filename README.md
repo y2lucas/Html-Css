@@ -808,5 +808,39 @@ animation-duration: 5s; /*aqui vai a duração da animação, aqui no caso vai f
 animation-iteration-count: infinite; /*aqui vai quantas vezes vai ser repetida, aqui no caso vai ser infinitamente*/
 }
 ```
+## usando %
+```css
+@keyframes testando{
+    0%{
+        background-color: red;
+        border-radius: 12px;
+        height: 100px;
+    }
+    25%{
+        background-color: black;
+        border-radius: 20px;
+    }
+    50%{
+        background-color: aqua;
+        border-radius: 30px;
+    }
+    75%{
+        background-color: chartreuse;
+        border-radius: 40px;
+    }
+    100%{
+        background-color: pink;
+        border-radius: 10px;
+    }
+}
 
+.exemplo{
+    background-color: red;
+     height: 250px;
+     width: 250px;
+     animation-name: testando;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+}
+```
 
