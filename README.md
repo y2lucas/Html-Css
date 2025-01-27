@@ -853,4 +853,21 @@ animation-iteration-count: infinite; /*aqui vai quantas vezes vai ser repetida, 
     box-shadow:#8888 5px 5px 0px;
 }
 ```
+# transições
+## Permitem que você crie animações suaves e graduais entre dois estados de um elemento. Em vez de uma mudança de estilo acontecer instantaneamente, a transição cria um efeito visual mais agradável.
+```css
+.exemplo{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+  margin: auto;
+  margin-top: 5%;
+  transition: all 2s linear; /*usamos a linear, vai durar 2 segundos*/
+}
+.exemplo:hover{ /* quando o curso do mouse estiver acima*/
+    height: 100px;  /* vai ficar com 100px de altura*/
+    width: 100px;  /* vai ficar com 100px de largura*/
+    border-radius: 12px;  /* vai ficar com 12px de bordas*/
+}
+```
 
