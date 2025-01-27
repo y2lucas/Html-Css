@@ -843,4 +843,14 @@ animation-iteration-count: infinite; /*aqui vai quantas vezes vai ser repetida, 
      animation-duration: 5s;
 }
 ```
+# Sombra
+## box-shadow: Colocar um sombra no background-color, tem 4 itens, e obrigatório colocar esse 4 itens, o Primeiro deles e a distância da sombra para a direita, o segundo e quão pra baixo vai a sombra, o terceiro e o espaço de espumaçado da sombra, o quarto e e a cor da sombra.
+```css
+.teste{
+ width: 150px;
+    height: 150px;
+    background-color: green;
+    box-shadow:#8888 5px 5px 0px;
+}
+```
 
