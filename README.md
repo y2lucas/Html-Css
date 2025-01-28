@@ -927,6 +927,10 @@ p {
 <figcaption>Logo do Google</figcaption> <!-- aqui vem a legenda-->
 </figure>
 ```
+# Flexbox:Layout que permite que os elementos responsivos, dentro de um contêiner, sejam organizados automaticamente
+## Flex container
+
+
 
 
 
