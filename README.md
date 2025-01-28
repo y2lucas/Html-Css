@@ -915,6 +915,11 @@ p {
 <p>testando o main</p>
 </main>
 ```
+# address: usada para colocar informações de contatos e muito usada dentro da tag footer, dependendo do navegador a fonte vem em italic, mais pode mudar com o css se não quiser em italic
+```html
+<address>
+</address>
+```
 
 
 
