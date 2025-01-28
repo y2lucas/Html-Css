@@ -909,6 +909,12 @@ p {
 <blockquote>
 </blockquote>
 ```
+# main: ela especifica o conteúdo principal da página, só pode ter uma por página
+```html
+<main>
+<p>testando o main</p>
+</main>
+```
 
 
 
