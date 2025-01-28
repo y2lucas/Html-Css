@@ -767,6 +767,7 @@ width:5vw;
 <aside>
 <h2>Assunto secundário</h2>
 </aside>
+</article>
 ```
 # autofocus: Usada nos formulários, para quando aparecer já entrar pronto pra digitar 
 ```html
