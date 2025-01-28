@@ -898,6 +898,19 @@ p {
 </dt>
 </dl>
 ```
+# citações//tem dois tipos
+## 1-usadas em citações menores e coloca aspas
+```html
+<q></q>:
+```
+## 2-usadas em citações maiores coloca aspas
+```html
+<blockquote>
+</blockquote>
+```
+
+
+
 
 
 
