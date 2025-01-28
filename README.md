@@ -920,6 +920,13 @@ p {
 <address>
 </address>
 ```
+# figure: Usada para juntar uma imagem com uma legenda, dentro dessa tag colocamos outra tag chamada figcaption que vem a legenda
+```html
+<figure>
+<img src="https://www.google.com.br/google.jpg"/>
+<figcaption>Logo do Google</figcaption> <!-- aqui vem a legenda-->
+</figure>
+```
 
 
 
