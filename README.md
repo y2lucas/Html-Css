@@ -928,8 +928,45 @@ p {
 </figure>
 ```
 # Flexbox:Layout que permite que os elementos responsivos, dentro de um contêiner, sejam organizados automaticamente
-## Flex container
-
+# Flex container
+## - display: tem dois tipos que são o flex e o block
+## -flex: deixa um elemento ao lado do outro
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+<div>1</div>
+<div>2</div>
+<div>3</div>
+</minha>
+<style>
+.testando{
+display:flex; /*por padrão seria um elemento ao lado do outro. colocando isso vai fica um ao lado do outro */
+}
+div{
+margin: 1%;
+height:100px;
+width:100px;
+background-color: green;
+}
+</style>
+```
+## - block: deixa abaixo do outro, como no padrão
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+<div>1</div>
+<div>2</div>
+<div>3</div>
+</minha>
+<style>
+.testando{
+display:block; 
+div{
+margin: 1%;
+height:100px;
+width:100px;
+background-color: green;
+}
+</style>
+```
 
 
 
