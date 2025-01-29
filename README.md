@@ -1143,6 +1143,49 @@ background-color: green;
  <div>10</div>
 </div>
 ```
+## -flex-flow: pode indicar valores para as flex a wrap e Direction em só uma opção
+```html
+<style>
+:root{
+    --fundo:black;
+    --fundo-elemento:red;
+    --largura-elemento:140px;
+    --altura-elemento:20px;
+    --distancia-entre-elemento:1%;
+
+}
+.fundo{
+    background-color: var(--fundo);
+    display: flex;
+    flex-flow: row nowrap; /* aqui pode ser com qualquer tipo do flex-wrap e do flex-direction */
+}
+.fundo div{
+background-color: var(--fundo-elemento);
+margin: var(--distancia-entre-elemento);
+height: var(--altura-elemento);
+width: var(--largura-elemento);
+}
+
+
+
+
+</style>
+<div class="fundo">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+<div>9</div>
+<div>10</div>
+
+</div>
+```
+
+
 
 
 
