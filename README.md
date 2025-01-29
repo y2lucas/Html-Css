@@ -1049,6 +1049,106 @@ background-color: green;
   }
 </style>
 ```
+## flex-wrap: define se os itens podem quebrar linhas ou não temos 3 opções wrap,nowrap,wrap-reverse
+## wrap: se o elemento não der vai quebrar a linha.
+```html
+<style>
+      .container{
+        background-color: #cccc;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container div{
+        background-color: red;
+        margin:10px;
+        padding: 10px;
+        font-size: 18px;
+    width: 200px;
+    
+    }
+</style>
+<body>
+<div class="container">
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+ <div>9</div>
+ <div>10</div>
+</div>
+```
+## nowrap: não permite a quebra de linha.
+```html
+<style>
+      .container{
+        background-color: #cccc;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .container div{
+        background-color: red;
+        margin:10px;
+        padding: 10px;
+        font-size: 18px;
+    width: 200px;
+    
+    }
+</style>
+<body>
+<div class="container">
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+ <div>9</div>
+ <div>10</div>
+</div>
+```
+## wrap-reverse: Quebra a linha assim que um dos flex itens não puder mais ser compactado. A quebra é na direção contrária, ou seja para a linha acima
+```html
+<style>
+      .container{
+        background-color: #cccc;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .container div{
+        background-color: red;
+        margin:10px;
+        padding: 10px;
+        font-size: 18px;
+    width: 200px;
+    
+    }
+</style>
+<body>
+<div class="container">
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+ <div>9</div>
+ <div>10</div>
+</div>
+```
+
+
+
+
+
+
 
 
 
