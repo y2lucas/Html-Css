@@ -1009,6 +1009,50 @@ background-color: green;
     }
   </style>
 ```
+## column: em forma de coluna, um a baixo do outro, como no padrão
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  </minha>
+  <style>
+  .testando{
+  display:flex;
+  flex-direction:column;
+  }
+  div{
+  margin: 1%;
+  height:100px;
+  width:100px;
+  background-color: green;
+  }
+</style>
+```
+## column-reverse: em forma de coluna, de baixo pra cima
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  </minha>
+  <style>
+  .testando{
+  display:flex;
+  flex-direction:column-reverse;
+  }
+  div{
+  margin: 1%;
+  height:100px;
+  width:100px;
+  background-color: green;
+  }
+</style>
+```
+
+
+
+
 
 
 
