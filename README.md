@@ -958,7 +958,8 @@ background-color: green;
 </minha>
 <style>
 .testando{
-display:block; 
+display:block;
+}
 div{
 margin: 1%;
 height:100px;
@@ -967,6 +968,52 @@ background-color: green;
 }
 </style>
 ```
+## flex-direction: Define a direção dos flex itens. Por padrão ele é row (linha), por isso (quando o display: flex; é adicionado), os elementos ficam em linha, um do lado do outro, tem 4 tipos que são row, row-reverse, column, column-reserve.
+## row: em forma de linha horizontalmente, um ao lado do outro
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    </minha>
+    <style>
+    .testando{
+    display:flex;
+    flex-direction:row;
+    }
+    div{
+    margin: 1%;
+    height:100px;
+    width:100px;
+    background-color: green;
+    }
+  </style>
+```
+## row-reverse: em forma de linha horizontalmente, da direita para esquerda
+```html
+<minha class="testando"> <!-- ops eu posso criar uma tag com qualquer nome, menos com nome de tags que já existem-->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    </minha>
+    <style>
+    .testando{
+    display:flex;
+    flex-direction:row-reverse;
+    }
+    div{
+    margin: 1%;
+    height:100px;
+    width:100px;
+    background-color: green;
+    }
+  </style>
+```
+
+
+
+
+
 
 
 
