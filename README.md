@@ -1166,9 +1166,6 @@ height: var(--altura-elemento);
 width: var(--largura-elemento);
 }
 
-
-
-
 </style>
 <div class="fundo">
 <div>1</div>
@@ -1181,30 +1178,44 @@ width: var(--largura-elemento);
 <div>8</div>
 <div>9</div>
 <div>10</div>
-
 </div>
 ```
+# justify-content:São comandos que podem posicionar os elementos, temos 5 opções que são center,flex-start,flext-end,space-around, space-between.
+## -center: posiciona no centro
+```html
+    <style>
+:root {
+    --fundo-centro: #CCCC;
+    --bordar: solid 2px black;
+    --fundo-divs: rgb(3, 46, 237);
+}
+
+.center {
+    background-color: var(--fundo-centro);
+    display: flex;
+    justify-content:center;
+
+}
+
+.center div {
+    background-color: var(--fundo-divs);
+    color: white;
+    margin: 1%;
+    border: var(--bordar);
+    height: 30px;
+    width: 40px;
+
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </style>
+    <div class="center">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+```
 
 
 
