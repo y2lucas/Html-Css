@@ -1259,6 +1259,53 @@ width: 50px;
     <div>5</div>
 </div>
 ```
+## -space-around: da um espaçamento entres eles com espaço igual
+```html
+    <style>
+        .around {
+    background-color: purple;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.around div {
+    background-color: green;
+    margin: 1.4%;
+   width: 40px;
+}
+    </style>
+    <div class="around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+```
+##  -space-between: Os itens são distribuídos uniformemente no contêiner, com o primeiro item alinhado ao início e o último item alinhado ao final.
+```html
+    <style>
+        .testando{
+    background-color: rgb(0, 179, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.testando div{
+    background-color: black;
+    color: white;    
+    margin: 2%;
+    width: 50px;
+    height: 50px;
+}
+    </style>
+    <div class="testando">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</div>
+```
+
 
 
 
