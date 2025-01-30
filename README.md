@@ -391,14 +391,14 @@ text-shadow: 2px 1px 2px red;
 ```html
 <ul style="list-style-type:disc;">
 <li>Prim...</li>
-<lisegu...</li>
+<li>segu...</li>
 </ul>
 ```
 ## Square: Um Quadrado
 ```html
 <ul style="list-style-type:square;">
 <li>Prim...</li>
-<liSegu..</li>
+<li>Segu..</li>
 </ul>
 ```
 ## Cicle: Um Circulo vazio por dentro
@@ -1196,7 +1196,6 @@ width: var(--largura-elemento);
     justify-content:center;
 
 }
-
 .center div {
     background-color: var(--fundo-divs);
     color: white;
@@ -1206,8 +1205,7 @@ width: var(--largura-elemento);
     width: 40px;
 
 }
-
-    </style>
+   </style>
     <div class="center">
     <div>1</div>
     <div>2</div>
@@ -1215,6 +1213,53 @@ width: var(--largura-elemento);
 </div>
 ```
 ## flex-start: posiciona no padrão, na esquerda
+```html
+<style>
+.star {
+    display: flex;
+background-color: rgb(11, 15, 56);
+height: 80px;
+justify-content: flex-start;
+}
+.star div {
+background-color: white;
+margin: 1%;
+width: 50px;
+}
+</style>
+    <div class="star">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+```
+## -flex-end:posiciona na outra ponta
+```html
+  <style>
+.end{
+    background-color: blueviolet;
+    display: flex;
+    height: 82px;
+    justify-content: flex-end;
+
+}
+.end div{
+    margin: 1.7%;
+    background-color: aqua;
+    height:  5vh;
+    width: 7vw;
+}
+    </style>
+    <div class="end">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+</div>
+```
+
 
 
 
