@@ -1180,7 +1180,7 @@ width: var(--largura-elemento);
 <div>10</div>
 </div>
 ```
-# justify-content:São comandos que podem posicionar os elementos, temos 5 opções que são center,flex-start,flext-end,space-around, space-between.
+# justify-content:São comandos que podem posicionar melhor os elementos, temos 5 opções que são center,flex-start,flext-end,space-around, space-between.
 ## -center: posiciona no centro
 ```html
     <style>
@@ -1207,8 +1207,6 @@ width: var(--largura-elemento);
 
 }
 
-
-
     </style>
     <div class="center">
     <div>1</div>
@@ -1216,6 +1214,8 @@ width: var(--largura-elemento);
     <div>3</div>
 </div>
 ```
+## flex-start: posiciona no padrão, na esquerda
+
 
 
 
