@@ -1305,6 +1305,75 @@ width: 50px;
     <div>4</div>
 </div>
 ```
+# align-items: são modos de alinhar os itens de um container flexbox, por padrão fica no eixo y, mais pode mudar usando o Direction e o justify ou um dos dois tem 5 maneiras
+## -flex-start: deixa no encima/inicio
+```html
+   <style> 
+ .fundo {
+    background-color: antiquewhite;
+    height: 40vh;
+    display: flex;
+ align-items:flex-start;
+
+}
+
+.fundo>div {
+    border-radius: 12px;
+    width: 5vw;
+    height: 5vh;
+
+}
+    </style>
+    <div class="fundo">
+        <div style="background-color: rgb(101, 185, 209);">1</div>
+        <div style="background-color: rgb(21, 152, 72);">2</div>
+        <div style="background-color: salmon;">3</div>
+    </div>
+```
+## -flex-end: deixa no fundo/final
+```html
+  <style>
+.end{
+    background-color: slateblue;
+    height: 15vh;
+    display: flex;
+align-items: flex-end;
+}
+.end > div{
+height: 4vh;
+width: 7vw;
+border-radius: 10px;
+}
+    </style>
+    <div class="end">
+        <div style="background-color: chartreuse;">vai</div>
+        <div style="background-color: darksalmon;">para</div>
+        <div style="background-color: cornflowerblue;">o final/baixo</div>
+    </div>
+```
+## -center:deixa no centro
+```html
+   <style>
+        .center{
+    background-color: bisque;
+    height: 12vh;
+    display: flex;
+    align-items:center;
+}
+.center div{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+}
+    </style>
+    <div class="center">
+        <div style="background-color: rgb(255, 0, 0);">testando</div>
+        <div style="background-color: cadetblue;">align-item no centro</div>
+    </div>
+```
+
+
+
 
 
 
