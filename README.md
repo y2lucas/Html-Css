@@ -1371,6 +1371,49 @@ border-radius: 10px;
         <div style="background-color: cadetblue;">align-item no centro</div>
     </div>
 ```
+## -baseline:Os itens são alinhados de acordo com a linha de base do texto
+```html
+ <style>
+        .baseline{
+    background-color: rgb(25, 105, 105);
+    display: flex;
+    align-items: baseline;
+}
+.baseline > div{
+    background-color: red;
+    margin: 1%;
+    height: 5vh;
+    width: 4vw;
+    border-radius: 10px;
+}
+    </style>
+    <div class="baseline">
+        <div style="font-size: 30px;">cada</div>
+        <div style="font-size: 18px;">tamanho</div>
+        <div style="font-size: 25px;">de</div>
+        <div style="font-size: 28px;">texto</div>
+    </div>
+```
+## - stretch: Os itens são esticados para preencher o container ao longo do eixo transversal.
+```html
+    <style>
+    .strche{
+        background-color: burlywood;
+        height: 70vh;
+        display: flex;
+        align-items: stretch;
+    }
+    .strche > div{
+        background-color: rgb(0, 85, 255);
+        margin: 2%;
+        width: 12vw;
+    }</style>
+    <div class="strche">
+        <div>asd</div>
+        <div>ad</div>
+    </div>
+```
+
 
 
 
