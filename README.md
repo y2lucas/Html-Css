@@ -1413,6 +1413,37 @@ border-radius: 10px;
         <div>ad</div>
     </div>
 ```
+# flex-item: são os filhos diretos do Flex Container
+## flex-grow: Pode aumentar o tamanho do elemento dentro do container
+```html
+ <style>
+    :root {
+        --bordas: solid 1.2px black;
+        --cores03: blue;
+    }
+    
+    .fundo {
+        border: var(--bordas);
+        display: flex;
+        margin-left: 7%;
+        width: 30vw;
+    }
+    
+    .fundo>div {
+        background-color: var(--cores03);
+        height: 5vh;
+        margin: 1%;
+        flex-grow: 1; /* Ao definir 1 para todos os Flex Itens, eles tentarão ter a mesma largura e vão ocupar 100% do container*/
+        flex-wrap: wrap;
+    }
+</style>
+    <div class="fundo"> <!-- aqui mesmo cada uma das 4 div vai ter 25% -->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+</div>
+```
 
 
 
