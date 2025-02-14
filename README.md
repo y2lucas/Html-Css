@@ -1,5 +1,5 @@
-# Caderno Virtual Sobre html <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_plain_wordmark_logo_icon_146476.png" height="50px" weight="50px" > e css <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_plain_wordmark_logo_icon_146574.png" height="50px" weight="50px" >
-# <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_plain_wordmark_logo_icon_146476.png" height="50px" weight="50px" >HTML: A Base da Web
+# Caderno Virtual Sobre html<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="50"  width="50"> <img src="https://icones.pro/wp-content/uploads/2022/08/css3.png" height="45"  width="45">
+# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="50"  width="50">HTML: A Base da Web
 ## (HyperText Markup Language, ou Linguagem de Marcação de Hipertexto em português) é a linguagem fundamental utilizada para criar a estrutura e o conteúdo das páginas da web.
 # O que é tag ?
 ## As tags são códigos que usamos para construir uma página web. Elas são palavras-chave envoltas de menor que(<) e maior que(>) por Exemplo
@@ -76,7 +76,7 @@
 ```html
 <br>
 ```
-# <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_plain_wordmark_logo_icon_146574.png" height="50"  width="50"> CSS: A Linguagem que Define a Aparência das Páginas Web
+# <img src="https://icones.pro/wp-content/uploads/2022/08/css3.png" height="45"  width="45"> CSS: A Linguagem que Define a Aparência das Páginas Web
 ## abreviação de Cascading Style Sheets (ou Folhas de Estilo em Cascata, em português), é uma linguagem de estilo usada para definir a apresentação visual de documentos HTML, como cores e tamanhos, o css e meio que uma maquiaguem para deixar mais bonita .
 # Métodos de Usar o CSS no Html
 ## inline: E quando Usamos o css dentro da linha do código html
