@@ -1444,7 +1444,35 @@ border-radius: 10px;
         <div>4</div>
 </div>
 ```
+# Seletor pelo atributo
+## se a tag tiver um atributo conseguimos colocar css por causa do atributo
+```html
+<style>
+    input,a{
+    display: block;
+}
+[required]{
+    background-color: rgb(255, 0, 0); /* tudo que tiver um required vai ser vermelho */
+}
 
+</style>
+<body>
+    <input type="text" name="usuario" required> <!--o fundo vai ser vermelho -->
+    <input type="text" name="senha">
+    <a href="https://www.google.com.br">google</a>
+    <a href="https://www.site.com.br">Site</a>
+    <a
+        href="https://www.espn.com.br/futebol/palmeiras/artigo/_/id/14852142/vitor-roque-palmeiras-anuncia-contratacao-reforco-mais-caro-historia-futebol-brasileiro">Vitor
+        Roque Palmeiras</a>
+    <a
+        href="https://www.nsctotal.com.br/noticias/vaticano-divulga-novo-boletim-sobre-o-estado-de-saude-do-papa-francisco">Papa
+        fransisco</a>
+    <a href="https://g1.globo.com/mundo/noticia/2025/02/28/trump-zelensky-encontro-casa-branca.ghtml">trump</a>
+    <a
+        href="https://www.opovo.com.br/noticias/fortaleza/2025/02/28/fortaleza-registra-1524-milimetros-de-chuva-e-defesa-civil-atende-118-ocorrencias-em-12h.html">Fortaleza</a>
+
+</body>
+```
 
 
 
