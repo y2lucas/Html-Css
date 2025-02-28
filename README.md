@@ -1473,6 +1473,27 @@ border-radius: 10px;
 
 </body>
 ```
+# Seletor de Elemento Vazio
+## Usamos o empty, pra estilizar um elemento vazio, entre vários
+```html
+<style>
+        div{
+    margin: 20px;
+    height: 30px;
+}
+div:empty{
+    background-color: red; /* a div que não tiver nada vai estar em vermelho*/
+}
+    </style>
+    <body>
+        <div>Texto 1</div>
+        <div>Texto 2</div>
+        <div></div> <!-- aqui vai ter um fundo vermelho, ja que não tem nada -->
+        <div>Texto 4</div>
+        <div>Texto 5</div>
+    </body>
+```
+
 
 
 
