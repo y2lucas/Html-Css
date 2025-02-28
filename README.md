@@ -1493,6 +1493,45 @@ div:empty{
         <div>Texto 5</div>
     </body>
 ```
+# Seletor de Primeira letra
+## Deixamos a primeira letra com uma configuração diferente, usamos no css ::first-letter
+```html
+    <style>
+        p::first-letter{
+    background-color: red; /* as Primeiras Letras vão ter um fundo vermelho, e uma font de 20px
+font-size:20px
+}
+    </style>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, modi voluptate atque blanditiis minima, corrupti, officiis incidunt porro officia quod voluptates velit ipsam nihil mollitia culpa eum aperiam dolorum deleniti?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, eaque odio! Odio accusantium impedit in fugit modi numquam reiciendis earum quos velit voluptates, magnam quibusdam maxime eveniet perferendis laboriosam aut.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis doloremque consequuntur, sapiente sequi numquam assumenda. Tempora rerum sequi quod modi perferendis quisquam, temporibus atque alias molestias perspiciatis amet earum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consectetur! Fuga facere praesentium quibusdam magnam sequi hic odit! Eaque quibusdam ipsam similique obcaecati, ab eveniet pariatur. Nostrum delectus voluptate natus.</p>
+</body>
+```
+# Seletor de Primeira linha
+## Deixamos a primeira linha com uma configuração diferente, usamos no css :: first-line
+```html
+    <style>
+        p::first-line{
+    background-color: red; /* as Primeiras linhas vão ter um fundo vermelho, e uma font de 20px
+font-size:20px
+}
+    </style>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, modi voluptate atque blanditiis minima, corrupti, officiis incidunt porro officia quod voluptates velit ipsam nihil mollitia culpa eum aperiam dolorum deleniti?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, eaque odio! Odio accusantium impedit in fugit modi numquam reiciendis earum quos velit voluptates, magnam quibusdam maxime eveniet perferendis laboriosam aut.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis doloremque consequuntur, sapiente sequi numquam assumenda. Tempora rerum sequi quod modi perferendis quisquam, temporibus atque alias molestias perspiciatis amet earum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consectetur! Fuga facere praesentium quibusdam magnam sequi hic odit! Eaque quibusdam ipsam similique obcaecati, ab eveniet pariatur. Nostrum delectus voluptate natus.</p>
+</body>
+```
+
+
+
+
+
 
 
 
