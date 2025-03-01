@@ -1494,11 +1494,11 @@ div:empty{
     </body>
 ```
 # Seletor de Primeira letra
-## Deixamos a primeira letra com uma configuração diferente, usamos no css ::first-letter
+## Deixamos a primeira letra com uma configuração diferente, usamos no css first-letter
 ```html
     <style>
         p::first-letter{
-    background-color: red; /* as Primeiras Letras vão ter um fundo vermelho, e uma font de 20px
+    background-color: red; /* as Primeiras Letras vão ter um fundo vermelho, e uma font de 20px */
 font-size:20px
 }
     </style>
@@ -1511,11 +1511,11 @@ font-size:20px
 </body>
 ```
 # Seletor de Primeira linha
-## Deixamos a primeira linha com uma configuração diferente, usamos no css :: first-line
+## Deixamos a primeira linha com uma configuração diferente, usamos no css first-line
 ```html
     <style>
         p::first-line{
-    background-color: red; /* as Primeiras linhas vão ter um fundo vermelho, e uma font de 20px
+    background-color: red; /* as Primeiras linhas vão ter um fundo vermelho, e uma font de 20px */
 font-size:20px
 }
     </style>
