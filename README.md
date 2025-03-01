@@ -1527,6 +1527,26 @@ font-size:20px
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consectetur! Fuga facere praesentium quibusdam magnam sequi hic odit! Eaque quibusdam ipsam similique obcaecati, ab eveniet pariatur. Nostrum delectus voluptate natus.</p>
 </body>
 ```
+# RGBA
+## Dessa vez o "A" Significa Alpha, que e as transparências das cores
+## e vale do do 0 até o 1 
+## 0 e totalmente Transparente
+## 1 significa totalmente opaco
+## valores entre 0.5 são intermediásrios
+```html
+<style>
+div{
+    background-color :rgba(255, 0, 60, 0.1); /* aqui vai ser bem transparente*/
+    width: 300px;
+    height: 300px;
+}
+</style>
+</head>
+<body>
+   <div>Texto 1</div> 
+</body>
+```
+
 
 
 
