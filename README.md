@@ -1546,6 +1546,55 @@ div{
    <div>Texto 1</div> 
 </body>
 ```
+# Transform
+## Usado Para fazer Efeitos Geométricos ou destorce, tem vários tipos
+## scale: usado Para mudar a escala do elemento, tanto na altura e na largura
+```html
+<style>
+    img{
+width: 200px;
+height: 200px;
+transform: scale(3); /* aumenta a escala da imagem pra 3 no eixo x e no eixo y */
+
+}
+</style>
+
+<body>
+<img src="charles.jpg" alt="">
+</body>
+```
+## scalex: usado Para mudar a escala no eixo x na horizontal
+```html
+<style>
+    img{
+width: 200px;
+height: 200px;
+transform: scalex(3); /* aumenta a escala da imagem pra 3 no eixo x */
+
+}
+</style>
+
+<body>
+<img src="charles.jpg" alt="">
+</body>
+```
+## scaley:  usado para mudar a escala no eixo y na vertical
+```html
+<style>
+    img{
+width: 200px;
+height: 200px;
+transform: scaley(3); /* aumenta a escala da imagem pra 3 no eixo y */
+
+}
+</style>
+
+<body>
+<img src="charles.jpg" alt="">
+</body>
+```
+# rotate
+##  ângulo de rotação elemento através do deg, se usar -deg vai para esquerda, se não vai para direita
 
 
 
