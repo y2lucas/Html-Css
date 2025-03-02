@@ -1595,6 +1595,41 @@ transform: scaley(3); /* aumenta a escala da imagem pra 3 no eixo y */
 ```
 # rotate
 ##  ângulo de rotação elemento através do deg, se usar -deg vai para esquerda, se não vai para direita
+## ged = graus
+```html
+<style>
+    img{
+width: 200px;
+height: 200px;
+transform:rotate(13deg); /* mudando a rotação do elemento pra 13 graus*/
+}
+</style>
+
+<body>
+<img src="charles.jpg" alt="">
+</body>
+```
+# skew
+##  usado para destorcer o elemento
+```html
+<style>
+    img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{ /* passe o mouse*/
+    transform:skew(45deg); /* vai destorcer 25 graus */
+    transition: 2s linear all;
+}
+    
+</style>
+
+<body>
+<img src="charles.jpg" alt="">
+
+</body>
+```
+
 
 
 
