@@ -1629,6 +1629,27 @@ img:hover{ /* passe o mouse*/
 
 </body>
 ```
+# css grid
+## usado para deixar o layaout  mais organizados, no display tem que estar como grid.
+```css
+ display: grid;
+```
+# gap
+## Define os espaçamentos entre os elementos a altura e largura
+## Caso coloque só uma valor no gap vai ser 12px de distancia na altura e na largura
+```css
+gap:12px;
+```
+##  se quiser colocar diferente para os dois o primeiro elemento seria altura o segundo a largura
+```css
+gap: 10px 3px;/* 10px de distanca na altura e 3px de distancia na largura*/
+```
+
+
+
+
+
+
 
 
 
