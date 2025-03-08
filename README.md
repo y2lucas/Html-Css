@@ -1629,21 +1629,30 @@ img:hover{ /* passe o mouse*/
 
 </body>
 ```
-# css grid
-## usado para deixar o layaout  mais organizados, no display tem que estar como grid.
+# css grid: Um método de posicionamento no css para deixar os layouts mais bonitos e responsivo, dentro do elemento pai temos que colocar um display:grid
 ```css
- display: grid;
+.container{
+display:grid;
+}
 ```
-# gap
-## Define os espaçamentos entre os elementos a altura e largura
-## Caso coloque só uma valor no gap vai ser 12px de distancia na altura e na largura
+## grid-templete-columns: uma função que define quantos elementos vai querer por coluna e define a largura do elemento
 ```css
-gap:12px;
+.container{
+display:grid;
+grid-template-columns:100px 300px; /* vai ter dois items por colunas e o primeiro item vai ter 100px e o segundo 300px*/
+}
 ```
-##  se quiser colocar diferente para os dois o primeiro elemento seria altura o segundo a largura
+## grid-template-rows: define a altura do elemento
 ```css
-gap: 10px 3px;/* 10px de distanca na altura e 3px de distancia na largura*/
+.container{
+display: grid;
+grid-template-columns:100px 300px;
+grid-template-rows:  200px 150px; /* o primeiro item vai ter uma altura de 200px e segundo de 150px */
+}
 ```
+
+
+
 
 
 
