@@ -1650,30 +1650,18 @@ grid-template-columns:100px 300px;
 grid-template-rows:  200px 150px; /* o primeiro item vai ter uma altura de 200px e segundo de 150px */
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## fr: E uma unidade de medida usada para define uma fração do espaço do elementos, usado como um valor em qualquer um dos elementos acima
+```css
+.container{
+display:grid;
+grid-template-columns: 2fr 1fr;
+}
+```
+## repeat(): usado para economizar caracteres e tempo, caso você queria colcoar 3 items por colunas com cada 1 com 200px você ira fazer 1 por 1, usando o repeat(3,200px) aqui está definindo que terão 3 itens por colunas e cada 1 com 200px de largura
+```css
+.container{
+display:grid;
+grid-template-columns:repeat(2, 2fr) /*aqui vai ter 2 dias cada um com duas fração de espaçamento */
+}
+```
 
