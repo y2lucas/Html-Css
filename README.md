@@ -1664,4 +1664,18 @@ display:grid;
 grid-template-columns:repeat(2, 2fr) /*aqui vai ter 2 dias cada um com duas fração de espaçamento */
 }
 ```
+## minmax(): Define a largura do elemento normal e o minimo que pode ficar
+```css
+.container{
+display:grid;
+grid-template-columns:minmax(200px , 500px) /*O item vai ter 500px de largura, mais a largura minina e 200px*/
+}
+```
+## gap: Usado para dar espaçamentos entre os item, podemos colocar mais de um valor nele, digamos colocamos 20px vai ter 20 na altura e 20 na largura
+```css
+.container{
+display:grid;
+grid-template-columns: minmax(200px , 500px)
+gap: 20px 20px; /*O Primeiro valor vai ser pra largura, segundo valor para altura*/
+}
 
