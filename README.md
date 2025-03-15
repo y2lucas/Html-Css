@@ -1678,4 +1678,6 @@ display:grid;
 grid-template-columns: minmax(200px , 500px)
 gap: 20px 20px; /*O Primeiro valor vai ser pra largura, segundo valor para altura*/
 }
+```
+### Curiosidade: podemos posiconar no css grid usando os mesmos elementos que usamos no flexbox
 
