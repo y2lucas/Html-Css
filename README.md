@@ -1680,4 +1680,25 @@ gap: 20px 20px; /*O Primeiro valor vai ser pra largura, segundo valor para altur
 }
 ```
 ### Curiosidade: podemos posiconar no css grid usando os mesmos elementos que usamos no flexbox
+# grid-column: define onde o item na coluna vai começar e onde vai terminar
+## grid-column-start: define onde o item na coluna vai começar
+## grid-column-end: define onde o item vai terminar
+```css
+grid-column-start: 1; /* O item  aqui vai começar na primeira linha imaginaria da coluna // por padrão*/
+grid-column-end: 3; /*vai terminar na 3 linha imaginaria da coluna*/
+```
+## para Funcionar tem que ter os dois
+## grid-row-start: define onde o item na linha vai começar
+## grid-row-end: define onde o item na linha vai terminar
+```css
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 2; /*Vai  Começar na segunda linha*/
+grid-row-end: 4; /*Vai terminar na 4º linha*/
+```
+
+
+
+
+
 
