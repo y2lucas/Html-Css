@@ -1696,6 +1696,16 @@ grid-column-end: 3;
 grid-row-start: 2; /*Vai  Começar na segunda linha*/
 grid-row-end: 4; /*Vai terminar na 4º linha*/
 ```
+## método mais fácil
+## grid-column: Define em quais colunas um item da grade será colocado.
+```css
+grid-column: 1 / 3; /* já define onde vai começar e termina em só uma linha*/
+```
+## grid-row: Define em quais linhas um item da grade será colocado.
+```css
+grid-row: 2 / 4; /* o item ira ocupara as linhas 2 até as linhas 3*/
+```
+
 
 
 
