@@ -1705,18 +1705,6 @@ grid-column: 1 / 3; /* já define onde vai começar e termina em só uma linha*/
 ```css
 grid-row: 2 / 4; /* o item ira ocupara as linhas 2 até as linhas 3*/
 ```
-```sql
-CREATE TABLE Pessoa( // criando uma tabela com o nome pessoa
-  Cpf int PRIMARY KEY, // chamando a chave 
-Primária no código
-  nome varchar(100),
-  data_nasc varchar(20),
-  sexo varchar(50),
-  tipo_sang varchar(10)
-);
-
-
-```
 
 
 
